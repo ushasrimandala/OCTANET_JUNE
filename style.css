@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #3e3d3d;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:auto;
+}
+
+nav {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    
+}
+
+.nav-links a:hover{
+color:white;
+}
+
+.nav-links a {
+    color: #4187d2;
+    text-decoration: none;
+    padding-left: 250px;
+    
+}
+
+#hero {
+    background: url('https://miro.medium.com/max/3200/1*5IYtIe5OwxeoYXi226J-Uw.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #063df0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #7e87a1;
+}
+
+#services {
+    padding: 0 0;
+    text-align: center;
+    color: #261a80;
+}
+
+.services-item1 {
+    background: url('https://wallpapercave.com/wp/wp3537545.jpg') no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    padding-left: 10%;
+    color: white;
+}
+
+.services-item2 {
+    background: url('https://i.ytimg.com/vi/pOwLCTkypUs/maxresdefault.jpg') no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    text-align: center;
+    bottom: 1%;
+    padding-left: 10%;
+    color: white;
+}
+
+#contact {
+    padding:0 0;
+    text-align: center;
+    color: #261a80;
+}
+.contact-item {
+    background: url('https://media.istockphoto.com/photos/-picture-id1311934969?b=1&k=20&m=1311934969&s=170667a&w=0&h=UQ3F8CE5zam5mT5swIliZ9nO7dhX4ZzsALMufFdv6Ys=')no-repeat center center/cover;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    height:50vh;
+}
+
+
+footer {
+    background: #333;
+    color: #54bad6;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
