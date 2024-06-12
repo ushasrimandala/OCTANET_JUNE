@@ -28,6 +28,11 @@ nav {
     
 }
 
+h2{
+    background-color:#54bad6;
+    text-align: center;
+    color: black;
+}
 .logo {
     font-size: 1.5rem;
 }
@@ -44,21 +49,21 @@ color:white;
 }
 
 .nav-links a {
-    color: #4187d2;
+    color: #54bad6;
     text-decoration: none;
     padding-left: 250px;
     
 }
 
 #hero {
-    background: url('https://miro.medium.com/max/3200/1*5IYtIe5OwxeoYXi226J-Uw.jpeg') no-repeat center center/cover;
-    height: 100vh;
+    background: url('./3.jpg') no-repeat center center/cover;
+    height: 80vh;
     display: flex;
     justify-content: left;
     align-items: center;
     text-align: center;
-    padding-left: 10%;
-    color: white;
+    color :white ;
+    padding-left: 5%;
 }
 
 .hero-content {
@@ -69,7 +74,7 @@ color:white;
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    background: #063df0;
+    background:#7e87a1;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -77,7 +82,7 @@ color:white;
 }
 
 .cta-button:hover {
-    background: #7e87a1;
+    background: #54bad6;
 }
 
 #services {
@@ -87,26 +92,28 @@ color:white;
 }
 
 .services-item1 {
-    background: url('https://wallpapercave.com/wp/wp3537545.jpg') no-repeat center center/cover;
+    background: url('./2.jpg') no-repeat center center/cover;
     height: 50vh;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     text-align: center;
-    padding-left: 10%;
     color: white;
+    list-style: none;
+    padding-top: 15%;
 }
 
 .services-item2 {
-    background: url('https://i.ytimg.com/vi/pOwLCTkypUs/maxresdefault.jpg') no-repeat center center/cover;
+    background: url('./1.jpg') no-repeat center center/cover;
     height: 50vh;
     display: flex;
     justify-content: center;
-    align-items:end;
+    align-items:center;
     text-align: center;
     bottom: 1%;
-    padding-left: 10%;
     color: white;
+    list-style: none;
+    padding-left: 35%;
 }
 
 #contact {
@@ -115,12 +122,13 @@ color:white;
     color: #261a80;
 }
 .contact-item {
-    background: url('https://media.istockphoto.com/photos/-picture-id1311934969?b=1&k=20&m=1311934969&s=170667a&w=0&h=UQ3F8CE5zam5mT5swIliZ9nO7dhX4ZzsALMufFdv6Ys=')no-repeat center center/cover;
+    background: url('./4.jpg')no-repeat center center/cover;
     align-items: center;
     align-content: center;
     text-align: center;
     color: white;
-    height:50vh;
+    height:70vh;
+    list-style: none;
 }
 
 
